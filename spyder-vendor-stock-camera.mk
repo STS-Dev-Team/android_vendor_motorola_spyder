@@ -1,9 +1,11 @@
 VENDOR_BLOB_FOLDER := vendor/motorola/spyder/proprietary
 
-# system/vendor
-#PRODUCT_COPY_FILES += \
-#$(VENDOR_BLOB_FOLDER)/lib/libpostcapimgproc_intf.so:/system/lib/libpostcapimgproc_intf.so \
-#$(VENDOR_BLOB_FOLDER)/lib/hw/camera.omap4.so:/system/lib/hw/camera.omap4.so
+# system/lib
+ifeq ($(PLATFORM_SDK_VERSION),16)
+PRODUCT_COPY_FILES += \
+$(VENDOR_BLOB_FOLDER)/lib/libpostcapimgproc_intf.so:/system/lib/libpostcapimgproc_intf.so \
+$(VENDOR_BLOB_FOLDER)/lib/hw/camera.omap4.so:/system/lib/hw/camera.omap4.so
+endif
 
 # system/etc/omapcam
 PRODUCT_COPY_FILES += \
