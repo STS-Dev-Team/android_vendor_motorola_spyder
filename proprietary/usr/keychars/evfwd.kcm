@@ -9,6 +9,8 @@ key Q {
     shift, capslock:                    'Q'
     alt:                                '1'
     shift+alt:                          '~'
+    ctrl:                               '\u00e0'
+    shift+ctrl:                         '\u00c0'
 }
 key W {
     label:                              'W'
@@ -16,6 +18,8 @@ key W {
     shift, capslock:                    'W'
     alt:                                '2'
     shift+alt:                          '`'
+    ctrl:                               '\u00e1'
+    shift+ctrl:                         '\u00c1'
 }
 key E {
     label:                              'E'
@@ -23,6 +27,8 @@ key E {
     shift, capslock:                    'E'
     alt:                                '3'
     shift+alt:                          '|'
+    ctrl:                               '\u00e2'
+    shift+ctrl:                         '\u00c2'
 }
 key R {
     label:                              'R'
@@ -30,6 +36,8 @@ key R {
     shift, capslock:                    'R'
     alt:                                '4'
     shift+alt:                          '\u2022'
+    ctrl:                               '\u00e4'
+    shift+ctrl:                         '\u00c4'
 }
 key T {
     label:                              'T'
@@ -37,6 +45,8 @@ key T {
     shift, capslock:                    'T'
     alt:                                '5'
     shift+alt:                          '\u221a'
+    ctrl:                               '\u00e3'
+    shift+ctrl:                         '\u00c3'
 }
 key Y {
     label:                              'Y'
@@ -44,6 +54,8 @@ key Y {
     shift, capslock:                    'Y'
     alt:                                '6'
     shift+alt:                          '\u220f'
+    ctrl:                               '\u00e5'
+    shift+ctrl:                         '\u00c5'
 }
 key U {
     label:                              'U'
@@ -51,6 +63,8 @@ key U {
     shift, capslock:                    'U'
     alt:                                '7'
     shift+alt:                          '\u00f7'
+    ctrl:                               '\u00e8'
+    shift+ctrl:                         '\u00c8'
 }
 key I {
     label:                              'I'
@@ -58,6 +72,8 @@ key I {
     shift, capslock:                    'I'
     alt:                                '8'
     shift+alt:                          '\u00d7'
+    ctrl:                               '\u00e9'
+    shift+ctrl:                         '\u00c9'
 }
 key O {
     label:                              'O'
@@ -65,6 +81,8 @@ key O {
     shift, capslock:                    'O'
     alt:                                '9'
     shift+alt:                          '{'
+    ctrl:                               '\u00ea'
+    shift+ctrl:                         '\u00ca'
 }
 key P {
     label:                              'P'
@@ -72,6 +90,8 @@ key P {
     shift, capslock:                    'P'
     alt:                                '0'
     shift+alt:                          '}'
+    ctrl:                               '\u00eb'
+    shift+ctrl:                         '\u00cb'
 }
 
 key SLASH {
@@ -80,6 +100,8 @@ key SLASH {
     shift, capslock:                    ' '
     alt:                                '@'
     shift+alt:                          '\u00a5'
+    ctrl:                               '\u00ec'
+    shift+ctrl:                         '\u00cc'
 }
 key A {
     label:                              'A'
@@ -87,6 +109,8 @@ key A {
     shift, capslock:                    'A'
     alt:                                '#'
     shift+alt:                          '\u00a3'
+    ctrl:                               '\u00ed'
+    shift+ctrl:                         '\u00cd'
 }
 key S {
     label:                              'S'
@@ -94,6 +118,8 @@ key S {
     shift, capslock:                    'S'
     alt:                                '$'
     shift+alt:                          '\u20ac'
+    ctrl:                               '\u00ee'
+    shift+ctrl:                         '\u00ce'
 }
 key D {
     label:                              'D'
@@ -101,6 +127,8 @@ key D {
     shift, capslock:                    'D'
     alt:                                '%'
     shift+alt:                          '\u00a2'
+    ctrl:                               '\u00ef'
+    shift+ctrl:                         '\u00cf'
 }
 key F {
     label:                              'F'
@@ -108,6 +136,8 @@ key F {
     shift, capslock:                    'F'
     alt:                                '&'
     shift+alt:                          '\u00b0'
+    ctrl:                               '\u00f5'
+    shift+ctrl:                         '\u00d5'
 }
 key G {
     label:                              'G'
@@ -115,6 +145,8 @@ key G {
     shift, capslock:                    'G'
     alt:                                '*'
     shift+alt:                          '^'
+    ctrl:                               '\u00f8'
+    shift+ctrl:                         '\u00d8'
 }
 key H {
     label:                              'H'
@@ -122,6 +154,8 @@ key H {
     shift, capslock:                    'H'
     alt:                                '-'
     shift+alt:                          '_'
+    ctrl:                               '\u00f2'
+    shift+ctrl:                         '\u00d2'
 }
 key J {
     label:                              'J'
@@ -129,6 +163,8 @@ key J {
     shift, capslock:                    'J'
     alt:                                '+'
     shift+alt:                          '='
+    ctrl:                               '\u00f3'
+    shift+ctrl:                         '\u00d3'
 }
 key K {
     label:                              'K'
@@ -136,6 +172,8 @@ key K {
     shift, capslock:                    'K'
     alt:                                '('
     shift+alt:                          '['
+    ctrl:                               '\u00f4'
+    shift+ctrl:                         '\u00d4'
 }
 key L {
     label:                              'L'
@@ -143,6 +181,8 @@ key L {
     shift, capslock:                    'L'
     alt:                                ')'
     shift+alt:                          ']'
+    ctrl:                               '\u00f6'
+    shift+ctrl:                         '\u00d6'
 }
 
 key Z {
@@ -151,6 +191,8 @@ key Z {
     shift, capslock:                    'Z'
     alt:                                '!'
     shift+alt:                          '\u2122'
+    ctrl:                               '\u00e7'
+    shift+ctrl:                         '\u00c7'
 }
 key X {
     label:                              'X'
@@ -158,6 +200,8 @@ key X {
     shift, capslock:                    'X'
     alt:                                '"'
     shift+alt:                          '\u00ae'
+    ctrl:                               '\u00f1'
+    shift+ctrl:                         '\u00d1'
 }
 key C {
     label:                              'C'
@@ -165,6 +209,8 @@ key C {
     shift, capslock:                    'C'
     alt:                                '\''
     shift+alt:                          '\u00a9'
+    ctrl:                               '\u00f9'
+    shift+ctrl:                         '\u00d9'
 }
 key V {
     label:                              'V'
@@ -172,6 +218,8 @@ key V {
     shift, capslock:                    'V'
     alt:                                ':'
     shift+alt:                          '\u00b6'
+    ctrl:                               '\u00fa'
+    shift+ctrl:                         '\u00da'
 }
 key B {
     label:                              'B'
@@ -179,6 +227,8 @@ key B {
     shift, capslock:                    'B'
     alt:                                ';'
     shift+alt:                          '\\'
+    ctrl:                               '\u00fb'
+    shift+ctrl:                         '\u00db'
 }
 key N {
     label:                              'N'
@@ -186,6 +236,8 @@ key N {
     shift, capslock:                    'N'
     alt:                                '/'
     shift+alt:                          '<'
+    ctrl:                               '\u00fc'
+    shift+ctrl:                         '\u00dc'
 }
 key M {
     label:                              'M'
@@ -193,6 +245,8 @@ key M {
     shift, capslock:                    'M'
     alt:                                '?'
     shift+alt:                          '>'
+    ctrl:                               '\u00df'
+    shift+ctrl:                         '\u00b5'
 }
 
 key COMMA {
@@ -201,6 +255,8 @@ key COMMA {
     shift, capslock:                    '<'
     alt:                                ','
     shift+alt:                          '\u201e'
+    ctrl:                               '\u00ab'
+    shift+ctrl:                         '\u00a1'
 }
 key PERIOD {
     label:                              '.'
@@ -208,6 +264,8 @@ key PERIOD {
     shift, capslock:                    '>'
     alt:                                '.'
     shift+alt:                          '\u2026'
+    ctrl:                               '\u00bb'
+    shift+ctrl:                         '\u00bf'
 }
 key SPACE {
     label:                              ' '
@@ -215,6 +273,8 @@ key SPACE {
     shift, capslock:                    ' '
     alt:                                ' '
     shift+alt:                          ' '
+    ctrl:                               ' '
+    shift+ctrl:                         ' '
 }
 key ENTER {
     label:                              '\n'
@@ -222,5 +282,7 @@ key ENTER {
     shift, capslock:                    '\n'
     alt:                                '\n'
     shift+alt:                          '\n'
+    ctrl:                               '\n'
+    shift+ctrl:                         '\n'
 }
 
