@@ -110,7 +110,6 @@ $(VENDOR_BLOB_FOLDER)/lib/libtpa.so:/system/lib/libtpa.so \
 $(VENDOR_BLOB_FOLDER)/lib/libtpa_core.so:/system/lib/libtpa_core.so \
 $(VENDOR_BLOB_FOLDER)/lib/libvsuite_mot_vs45_embedded.so:/system/lib/libvsuite_mot_vs45_embedded.so \
 $(VENDOR_BLOB_FOLDER)/lib/libwbxmlparser.so:/system/lib/libwbxmlparser.so \
-$(VENDOR_BLOB_FOLDER)/lib/libWVphoneAPI.so:/system/lib/libWVphoneAPI.so \
 $(VENDOR_BLOB_FOLDER)/lib/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
 $(VENDOR_BLOB_FOLDER)/lib/libOMX.ITTIAM.AAC.encode.so:/system/lib/libOMX.ITTIAM.AAC.encode.so \
 $(VENDOR_BLOB_FOLDER)/lib/libportaljni.so:/system/lib/libportaljni.so
