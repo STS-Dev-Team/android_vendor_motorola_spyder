@@ -136,7 +136,6 @@ $(VENDOR_BLOB_FOLDER)/lib/libims_client_jni.so:/system/lib/libims_client_jni.so
 # system/lib/hw
 PRODUCT_COPY_FILES += \
 $(VENDOR_BLOB_FOLDER)/lib/hw/gps.spyder.so:/system/lib/hw/gps.spyder.so \
-$(VENDOR_BLOB_FOLDER)/lib/hw/lights.spyder.so:/system/lib/hw/lights.spyder.so \
 $(VENDOR_BLOB_FOLDER)/lib/hw/sensors.spyder.so:/system/lib/hw/sensors.spyder.so \
 $(VENDOR_BLOB_FOLDER)/lib/hw/sensorhub.spyder.so:/system/lib/hw/sensorhub.spyder.so \
 $(VENDOR_BLOB_FOLDER)/lib/hw/power.omap4.so:/system/lib/hw/power.omap4.so
