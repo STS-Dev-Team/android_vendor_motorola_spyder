@@ -5,12 +5,10 @@ PRODUCT_COPY_FILES += \
 $(VENDOR_BLOB_FOLDER)/bin/akmd8975:/system/bin/akmd8975 \
 $(VENDOR_BLOB_FOLDER)/bin/ap_gain.bin:/system/bin/ap_gain.bin \
 $(VENDOR_BLOB_FOLDER)/bin/ap_gain_mmul.bin:/system/bin/ap_gain_mmul.bin \
-$(VENDOR_BLOB_FOLDER)/bin/aplogd:/system/bin/aplogd \
 $(VENDOR_BLOB_FOLDER)/bin/batch:/system/bin/batch \
 $(VENDOR_BLOB_FOLDER)/bin/btcmd:/system/bin/btcmd \
 $(VENDOR_BLOB_FOLDER)/bin/bthelp:/system/bin/bthelp \
 $(VENDOR_BLOB_FOLDER)/bin/bttest_mot:/system/bin/bttest_mot \
-$(VENDOR_BLOB_FOLDER)/bin/charge_only_mode:/system/bin/charge_only_mode \
 $(VENDOR_BLOB_FOLDER)/bin/dbvc_atvc_property_set:/system/bin/dbvc_atvc_property_set \
 $(VENDOR_BLOB_FOLDER)/bin/dumpe2fs:/system/bin/dumpe2fs \
 $(VENDOR_BLOB_FOLDER)/bin/dund:/system/bin/dund \
@@ -20,8 +18,6 @@ $(VENDOR_BLOB_FOLDER)/bin/ftmipcd:/system/bin/ftmipcd \
 $(VENDOR_BLOB_FOLDER)/bin/libthermal-manager.cfg:/system/bin/libthermal-manager.cfg \
 $(VENDOR_BLOB_FOLDER)/bin/logcatd:/system/bin/logcatd \
 $(VENDOR_BLOB_FOLDER)/bin/logcatd-blan:/system/bin/logcatd-blan \
-$(VENDOR_BLOB_FOLDER)/bin/mot_boot_mode:/system/bin/mot_boot_mode \
-$(VENDOR_BLOB_FOLDER)/bin/motobox:/system/bin/motobox \
 $(VENDOR_BLOB_FOLDER)/bin/msp430:/system/bin/msp430 \
 $(VENDOR_BLOB_FOLDER)/bin/startup_smc.sh:/system/bin/startup_smc.sh \
 $(VENDOR_BLOB_FOLDER)/bin/tcmd:/system/bin/tcmd \
