@@ -79,7 +79,7 @@ $(VENDOR_BLOB_FOLDER)/lib/libnmea.so:/system/lib/libnmea.so \
 $(VENDOR_BLOB_FOLDER)/lib/libopenssl-smime.so:/system/lib/libopenssl-smime.so \
 $(VENDOR_BLOB_FOLDER)/lib/libOMX.ITTIAM.AAC.encode.so:/system/lib/libOMX.ITTIAM.AAC.encode.so \
 $(VENDOR_BLOB_FOLDER)/lib/libpkip.so:/system/lib/libpkip.so \
-$(VENDOR_BLOB_FOLDER)/lib/libportaljni.so:/system/lib/libportaljni.so
+$(VENDOR_BLOB_FOLDER)/lib/libportaljni.so:/system/lib/libportaljni.so \
 $(VENDOR_BLOB_FOLDER)/lib/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
 $(VENDOR_BLOB_FOLDER)/lib/libprovlib.so:/system/lib/libprovlib.so \
 $(VENDOR_BLOB_FOLDER)/lib/libsensorhub_jni.so:/system/lib/libsensorhub_jni.so \
