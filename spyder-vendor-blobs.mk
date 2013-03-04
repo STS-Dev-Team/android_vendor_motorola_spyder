@@ -9,7 +9,6 @@ $(VENDOR_BLOB_FOLDER)/bin/batch:/system/bin/batch \
 $(VENDOR_BLOB_FOLDER)/bin/battd:/system/bin/battd \
 $(VENDOR_BLOB_FOLDER)/bin/dbvc_atvc_property_set:/system/bin/dbvc_atvc_property_set \
 $(VENDOR_BLOB_FOLDER)/bin/dumpe2fs:/system/bin/dumpe2fs \
-$(VENDOR_BLOB_FOLDER)/bin/dund:/system/bin/dund \
 $(VENDOR_BLOB_FOLDER)/bin/enc_mgt_tool:/system/bin/enc_mgt_tool \
 $(VENDOR_BLOB_FOLDER)/bin/fips_loader:/system/bin/fips_loader \
 $(VENDOR_BLOB_FOLDER)/bin/ftmipcd:/system/bin/ftmipcd \
@@ -19,8 +18,6 @@ $(VENDOR_BLOB_FOLDER)/bin/logcatd-blan:/system/bin/logcatd-blan \
 $(VENDOR_BLOB_FOLDER)/bin/mount_ext3.sh:/system/bin/mount_ext3.sh \
 $(VENDOR_BLOB_FOLDER)/bin/msp430:/system/bin/msp430 \
 $(VENDOR_BLOB_FOLDER)/bin/startup_smc.sh:/system/bin/startup_smc.sh \
-$(VENDOR_BLOB_FOLDER)/bin/tcmd:/system/bin/tcmd \
-$(VENDOR_BLOB_FOLDER)/bin/tcmdhelp:/system/bin/tcmdhelp \
 $(VENDOR_BLOB_FOLDER)/bin/thermaldaemon:/system/bin/thermaldaemon \
 $(VENDOR_BLOB_FOLDER)/bin/tty2ttyd:/system/bin/tty2ttyd \
 $(VENDOR_BLOB_FOLDER)/bin/whisperd:/system/bin/whisperd
@@ -43,34 +40,21 @@ $(VENDOR_BLOB_FOLDER)/etc/wifi/wlan_fem.ini:/system/etc/wifi/wlan_fem.ini
 # system/usr
 PRODUCT_COPY_FILES += \
 $(VENDOR_BLOB_FOLDER)/usr/idc/Motorola_Mobility_Motorola_HD_Dock.idc:system/usr/idc/Motorola_Mobility_Motorola_HD_Dock.idc \
-$(VENDOR_BLOB_FOLDER)/usr/keychars/omap4-keypad.kcm:system/usr/keychars/omap4-keypad.kcm \
 $(VENDOR_BLOB_FOLDER)/usr/keylayout/cpcap-key.kl:system/usr/keylayout/cpcap-key.kl \
-$(VENDOR_BLOB_FOLDER)/usr/keylayout/cy8c201xx.kl:system/usr/keylayout/cy8c201xx.kl \
-$(VENDOR_BLOB_FOLDER)/usr/keylayout/omap4-keypad.kl:system/usr/keylayout/omap4-keypad.kl
+$(VENDOR_BLOB_FOLDER)/usr/keylayout/cy8c201xx.kl:system/usr/keylayout/cy8c201xx.kl
 
 # system/lib
 PRODUCT_COPY_FILES += \
-$(VENDOR_BLOB_FOLDER)/lib/libaudiotcmd.so:/system/lib/libaudiotcmd.so \
 $(VENDOR_BLOB_FOLDER)/lib/libbattd.so:/system/lib/libbattd.so \
-$(VENDOR_BLOB_FOLDER)/lib/libbt-aptx-4.0.4.so:/system/lib/libbt-aptx-4.0.4.so \
 $(VENDOR_BLOB_FOLDER)/lib/libdataencrypt_openssl.so:/system/lib/libdataencrypt_openssl.so \
 $(VENDOR_BLOB_FOLDER)/lib/libdataencrypt_tpa.so:/system/lib/libdataencrypt_tpa.so \
 $(VENDOR_BLOB_FOLDER)/lib/libdataencrypt_utils.so:/system/lib/libdataencrypt_utils.so \
-$(VENDOR_BLOB_FOLDER)/lib/libdlnahttpjni.so:/system/lib/libdlnahttpjni.so \
-$(VENDOR_BLOB_FOLDER)/lib/libdlnajni.so:/system/lib/libdlnajni.so \
-$(VENDOR_BLOB_FOLDER)/lib/libdlnasysjni.so:/system/lib/libdlnasysjni.so \
-$(VENDOR_BLOB_FOLDER)/lib/libdmengine.so:/system/lib/libdmengine.so \
-$(VENDOR_BLOB_FOLDER)/lib/libdmjavaplugin.so:/system/lib/libdmjavaplugin.so \
-$(VENDOR_BLOB_FOLDER)/lib/libdockcommjni.so:/system/lib/libdockcommjni.so \
-$(VENDOR_BLOB_FOLDER)/lib/libevbridge.so:/system/lib/libevbridge.so \
-$(VENDOR_BLOB_FOLDER)/lib/libextdispjni.so:/system/lib/libextdispjni.so \
 $(VENDOR_BLOB_FOLDER)/lib/libhdcp.so:/system/lib/libhdcp.so \
 $(VENDOR_BLOB_FOLDER)/lib/libhdmi.so:/system/lib/libhdmi.so \
 $(VENDOR_BLOB_FOLDER)/lib/libjni_hwr.so:/system/lib/libjni_hwr.so \
 $(VENDOR_BLOB_FOLDER)/lib/libjni_latin.so:/system/lib/libjni_latin.so \
 $(VENDOR_BLOB_FOLDER)/lib/libjni_mot_mosaic.so:/system/lib/libjni_mot_mosaic.so \
 $(VENDOR_BLOB_FOLDER)/lib/libjni_strokeime.so:/system/lib/libjni_strokeime.so \
-$(VENDOR_BLOB_FOLDER)/lib/libmetainfo.so:/system/lib/libmetainfo.so \
 $(VENDOR_BLOB_FOLDER)/lib/libmot_atcmd.so:/system/lib/libmot_atcmd.so \
 $(VENDOR_BLOB_FOLDER)/lib/libmoto_netutil.so:/system/lib/libmoto_netutil.so \
 $(VENDOR_BLOB_FOLDER)/lib/libmotocare.so:/system/lib/libmotocare.so \
@@ -79,18 +63,13 @@ $(VENDOR_BLOB_FOLDER)/lib/libnmea.so:/system/lib/libnmea.so \
 $(VENDOR_BLOB_FOLDER)/lib/libopenssl-smime.so:/system/lib/libopenssl-smime.so \
 $(VENDOR_BLOB_FOLDER)/lib/libOMX.ITTIAM.AAC.encode.so:/system/lib/libOMX.ITTIAM.AAC.encode.so \
 $(VENDOR_BLOB_FOLDER)/lib/libpkip.so:/system/lib/libpkip.so \
-$(VENDOR_BLOB_FOLDER)/lib/libportaljni.so:/system/lib/libportaljni.so \
 $(VENDOR_BLOB_FOLDER)/lib/libpppd_plugin-ril.so:/system/lib/libpppd_plugin-ril.so \
-$(VENDOR_BLOB_FOLDER)/lib/libprovlib.so:/system/lib/libprovlib.so \
 $(VENDOR_BLOB_FOLDER)/lib/libsensorhub_jni.so:/system/lib/libsensorhub_jni.so \
 $(VENDOR_BLOB_FOLDER)/lib/libsmapi.so:/system/lib/libsmapi.so \
-$(VENDOR_BLOB_FOLDER)/lib/libtcmdcameraservice.so:/system/lib/libtcmdcameraservice.so \
 $(VENDOR_BLOB_FOLDER)/lib/libthermal_config.so:/system/lib/libthermal_config.so \
 $(VENDOR_BLOB_FOLDER)/lib/libthermal_manager.so:/system/lib/libthermal_manager.so \
 $(VENDOR_BLOB_FOLDER)/lib/libtpa.so:/system/lib/libtpa.so \
-$(VENDOR_BLOB_FOLDER)/lib/libtpa_core.so:/system/lib/libtpa_core.so \
-$(VENDOR_BLOB_FOLDER)/lib/libwbxmlparser.so:/system/lib/libwbxmlparser.so \
-$(VENDOR_BLOB_FOLDER)/lib/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so
+$(VENDOR_BLOB_FOLDER)/lib/libtpa_core.so:/system/lib/libtpa_core.so
 
 # RIL files
 PRODUCT_COPY_FILES += \
