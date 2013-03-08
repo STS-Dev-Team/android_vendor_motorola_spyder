@@ -48,13 +48,8 @@ $(VENDOR_BLOB_FOLDER)/lib/libdataencrypt_tpa.so:/system/lib/libdataencrypt_tpa.s
 $(VENDOR_BLOB_FOLDER)/lib/libdataencrypt_utils.so:/system/lib/libdataencrypt_utils.so \
 $(VENDOR_BLOB_FOLDER)/lib/libhdcp.so:/system/lib/libhdcp.so \
 $(VENDOR_BLOB_FOLDER)/lib/libhdmi.so:/system/lib/libhdmi.so \
-$(VENDOR_BLOB_FOLDER)/lib/libjni_hwr.so:/system/lib/libjni_hwr.so \
-$(VENDOR_BLOB_FOLDER)/lib/libjni_latin.so:/system/lib/libjni_latin.so \
-$(VENDOR_BLOB_FOLDER)/lib/libjni_mot_mosaic.so:/system/lib/libjni_mot_mosaic.so \
-$(VENDOR_BLOB_FOLDER)/lib/libjni_strokeime.so:/system/lib/libjni_strokeime.so \
 $(VENDOR_BLOB_FOLDER)/lib/libmot_atcmd.so:/system/lib/libmot_atcmd.so \
 $(VENDOR_BLOB_FOLDER)/lib/libmoto_netutil.so:/system/lib/libmoto_netutil.so \
-$(VENDOR_BLOB_FOLDER)/lib/libmotocare.so:/system/lib/libmotocare.so \
 $(VENDOR_BLOB_FOLDER)/lib/libnbgm_9.0.1.so:/system/lib/libnbgm_9.0.1.so \
 $(VENDOR_BLOB_FOLDER)/lib/libnmea.so:/system/lib/libnmea.so \
 $(VENDOR_BLOB_FOLDER)/lib/libopenssl-smime.so:/system/lib/libopenssl-smime.so \
