@@ -3,6 +3,8 @@ VENDOR_BLOB_FOLDER := vendor/motorola/spyder/proprietary
 # system/bin
 PRODUCT_COPY_FILES += \
 $(VENDOR_BLOB_FOLDER)/bin/akmd8975:/system/bin/akmd8975 \
+$(VENDOR_BLOB_FOLDER)/bin/ap_gain.bin:/system/bin/ap_gain.bin \
+$(VENDOR_BLOB_FOLDER)/bin/ap_gain_mmul.bin:/system/bin/ap_gain_mmul.bin \
 $(VENDOR_BLOB_FOLDER)/bin/batch:/system/bin/batch \
 $(VENDOR_BLOB_FOLDER)/bin/battd:/system/bin/battd \
 $(VENDOR_BLOB_FOLDER)/bin/dbvc_atvc_property_set:/system/bin/dbvc_atvc_property_set \
@@ -90,6 +92,7 @@ $(VENDOR_BLOB_FOLDER)/lib/libims_client_jni.so:/system/lib/libims_client_jni.so
 
 # system/lib/hw
 PRODUCT_COPY_FILES += \
+$(VENDOR_BLOB_FOLDER)/lib/hw/audio.primary.omap4.so:/system/lib/hw/audio.primary.omap4.so \
 $(VENDOR_BLOB_FOLDER)/lib/hw/gps.spyder.so:/system/lib/hw/gps.spyder.so \
 $(VENDOR_BLOB_FOLDER)/lib/hw/sensorhub.spyder.so:/system/lib/hw/sensorhub.spyder.so \
 $(VENDOR_BLOB_FOLDER)/lib/hw/sensors.spyder.so:/system/lib/hw/sensors.spyder.so \
